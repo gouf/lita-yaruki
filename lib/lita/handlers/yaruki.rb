@@ -7,7 +7,7 @@ module Lita
 
       def yaruki(response)
         user_name = find_user_name(response.user&.id) rescue 'Jhon Doe'
-        ::Yaruki.ga(user_name, hile_url: true).lines do |line|
+        ::Yaruki.ga(user_name).lines do |line|
           response.reply(line)
         end
       end

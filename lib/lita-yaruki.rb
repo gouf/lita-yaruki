@@ -1,4 +1,7 @@
 require "lita"
+require 'slack-ruby-client'
+require 'yaruki/shindan_scrape'
+require 'yaruki/yaruki'
 
 Lita.load_locales Dir[File.expand_path(
   File.join("..", "..", "locales", "*.yml"), __FILE__
