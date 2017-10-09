@@ -1,5 +1,6 @@
 require "lita"
 require 'slack-ruby-client'
+require 'shindan'
 require 'yaruki/shindan_scrape'
 require 'yaruki/yaruki'
 
